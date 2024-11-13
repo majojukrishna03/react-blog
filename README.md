@@ -67,8 +67,8 @@ my-blog/
     └── index.css        # Global styles for the application
 
 ## Screenshots 
-Light theme : ![alt text](image.png)
-Dark theme : ![alt text](image-1.png)
+Light theme : ![alt text](LightTheme.png)
+Dark theme : ![alt text](DarkTheme.png)
 
 ## What I Learned
 From this assignment, I learned the following:
@@ -87,6 +87,67 @@ From this assignment, I learned the following:
 
 
 -----------------------------------------------------------------------------------------
+
+# Assignment - 1: Blog Post Component Implementation
+
+In this section, I will guide you through the steps I followed to implement the Blog Post component using React and CSS Modules.
+
+## Components Structure
+
+### BlogPost
+- **Description**: The `BlogPost` component is used to display an individual blog post, including its title, content, author, date, and read time. It’s designed to be reusable and styled using CSS Modules.
+- **Purpose**: This component allows the display of each post in a clean, organized manner with flexible content formatting options.
+
+### BlogList
+- **Description**: The `BlogList` component serves as a container for multiple `BlogPost` components. It is responsible for rendering a collection of posts dynamically by iterating over the posts data.
+- **Purpose**: This component is used to display a list of all the blog posts on the main page of the blog.
+
+### Header
+- **Description**: The `Header` component is used to display the site title, navigation links, and additional information like the dark mode toggle.
+- **Purpose**: It provides the navigation structure and helps in controlling the app’s theme.
+
+## Styling Approach
+
+For this project, I chose to use **CSS Modules** for styling. This approach allows for scoped styles, meaning that the CSS classes are specific to the component and do not leak into others. This makes the codebase easier to maintain and avoids conflicts between styles.
+
+### Why CSS Modules?
+- **Component-based Styles**: Since each component is isolated with its own CSS, styling becomes more modular and maintainable.
+- **No Global Styles Collision**: Unlike traditional global CSS, CSS Modules ensure that each class name is locally scoped, preventing conflicts in large applications.
+- **Easier Refactoring**: The modular nature of CSS Modules helps in easily refactoring or adding new components without worrying about unintended style changes elsewhere.
+
+## New Features
+
+Here are the features I’ve added in this assignment:
+
+1. **BlogPost Component**: 
+   - Displays individual blog posts with title, content, author, date, and read time.
+   - Styling for the blog post is modularized using CSS Modules.
+   - Added hover effects for interactive experience.
+
+2. **BlogList Component**: 
+   - A container that renders multiple `BlogPost` components dynamically.
+   - Iterates over a list of posts and passes the necessary props to `BlogPost`.
+
+3. **Responsive Design**: 
+   - Ensured that the layout is mobile-responsive by using media queries.
+   - Adjusted font sizes, spacing, and layout for smaller screens.
+
+4. **Interactive Hover Effects**: 
+   - Added hover effects to make the blog posts interactive, improving user experience.
+
+5. **Content Formatting**: 
+   - Incorporated blockquotes, links, and images with proper styling to improve content readability.
+
+## Screenshots
+
+### Desktop View:
+Light Theme : ![alt text](Assignment1_DesktopView.png)
+
+### Mobile View:
+Dark Theme : ![alt text](Assignment1_MobileView.png)
+
+
+
 
 
 
