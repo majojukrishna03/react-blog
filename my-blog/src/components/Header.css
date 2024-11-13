@@ -1,0 +1,92 @@
+/* Header Styles */
+.blog-header {
+    padding: 1.5rem;
+    background-color: #4A90E2; /* Pleasant blue background */
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .blog-header.dark {
+    background-color: #2E3A46; /* Dark, calm blue-grey for dark mode */
+    color: #e0e0e0;
+  }
+  
+  .blog-header h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #f1f1f1; /* Light color for title */
+  }
+  
+  .blog-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .blog-header nav a {
+    color: #D6EAF8; /* Soft, pale blue for links */
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .blog-header nav a:hover {
+    color: #ffffff; /* Bright white on hover for contrast */
+    transform: scale(1.05); /* Smooth zoom effect */
+  }
+  
+  .toggle-mode {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid #D6EAF8;
+    border-radius: 5px;
+    color: #D6EAF8;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .blog-header.dark .toggle-mode {
+    border-color: #A9CCE3;
+    color: #A9CCE3;
+  }
+  
+  .toggle-mode:hover {
+    background-color: #5DADE2; /* Softer blue for hover background */
+    color: #ffffff;
+    transform: scale(1.05); /* Smooth zoom effect */
+  }
+  
+  /* Responsive Header */
+  @media (max-width: 600px) {
+    .blog-header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+    }
+  
+    .blog-header nav ul {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+  
+    .toggle-mode {
+      margin-top: 1rem;
+    }
+  }
+  
+  /* Global Dark Mode */
+  body.dark-mode {
+    background-color: #1c1f26;
+    color: #dcdcdc;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
