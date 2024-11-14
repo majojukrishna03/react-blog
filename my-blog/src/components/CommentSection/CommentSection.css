@@ -1,0 +1,109 @@
+/* Main comment section container */
+.comment-section {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: #f9f9fb;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+  }
+  
+  /* Toggle button */
+  .comment-section__toggle {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .comment-section__toggle:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Comment form styling */
+  .comment-form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .comment-form__input {
+    resize: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border 0.3s;
+  }
+  
+  .comment-form__input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  .comment-form__submit {
+    align-self: flex-start;
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .comment-form__submit:hover {
+    background-color: #2980b9;
+  }
+  
+  .comment-form__submit:disabled {
+    background-color: #b0c4de;
+    cursor: not-allowed;
+  }
+  
+  /* Comments list */
+  .comments-list {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  /* Individual comment */
+  .comment {
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+  }
+  
+  .comment:hover {
+    transform: translateY(-2px);
+  }
+  
+  .comment__text {
+    font-size: 1rem;
+    color: #333;
+    margin: 0 0 0.5rem;
+  }
+  
+  .comment__timestamp {
+    font-size: 0.85rem;
+    color: #999;
+    font-style: italic;
+    display: block;
+    margin-top: 0.3rem;
+  }
+  

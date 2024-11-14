@@ -67,8 +67,8 @@ my-blog/
     └── index.css        # Global styles for the application
 
 ## Screenshots 
-Light theme : ![alt text](LightTheme.png)
-Dark theme : ![alt text](DarkTheme.png)
+Light theme : ![alt text](my-blog/src/assets/LightTheme.png)
+Dark theme : ![alt text](my-blog/src/assets/DarkTheme.png)
 
 ## What I Learned
 From this assignment, I learned the following:
@@ -141,13 +141,66 @@ Here are the features I’ve added in this assignment:
 ## Screenshots
 
 ### Desktop View:
-Light Theme : ![alt text](Assignment1_DesktopView.png)
+Light Theme : ![alt text](my-blog/src/assets/Assignment1_DesktopView.png)
 
 ### Mobile View:
-Dark Theme : ![alt text](Assignment1_MobileView.png)
+Dark Theme : ![alt text](my-blog/src/assets/Assignment1_MobileView.png)
 
 
 
+-----------------------------------------------------------------------------------------
+
+# Assignment - 2: Interactive Blog Post Enhancements
+
+In this assignment, I made my blog more interactive by adding like buttons, a comment section, and read time estimation using React and CSS Modules.
+
+## Components Structure
+
+### BlogPost
+
+- **Description**: Displays each blog post with title, author, date, read time, likes, and comments. Uses hooks to handle likes, comments, and content expansion.
+
+- **Purpose**: Engages users with interactive content display and feedback options.
+
+### LikeButton
+
+- **Description**: Tracks and displays like counts, toggling a heart icon for user feedback.
+- **Purpose**: Allows users to like posts, enhancing engagement.
+
+### CommentSection
+
+- **Description**: Allows users to add comments and shows a comment count. Toggle button for showing/hiding comments.
+- **Purpose**: Encourages user interaction by sharing thoughts on each post.
+
+
+## New Features
+
+Here are the features I’ve added in this assignment:
+
+
+1. **Like Button**: 
+  - Like or unlike posts with real-time updates.
+
+2. **Comment Section**: 
+  - Add and toggle comments to foster engagement.
+
+3. **Read More / Less Toggle**: 
+ - Expands and collapses content.
+
+4. **Read Time Estimation**: 
+  - Displays estimated read time for each post.
+
+## Styling & Responsive Design
+
+- **CSS Modules**: Scoped styles for each component to avoid conflicts.
+
+- **Responsive Design**: Adjusted layout for mobile, with interactive elements and media queries.
+
+## Screenshots
+
+Desktop View : ![alt text](my-blog/src/assets/Assignment2_DesktopView.png)
+
+Mobile View : ![alt text](my-blog/src/assets/Assignment2_MobileView.png)
 
 
 
