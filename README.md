@@ -203,6 +203,69 @@ Desktop View : ![alt text](my-blog/src/assets/Assignment2_DesktopView.png)
 Mobile View : ![alt text](my-blog/src/assets/Assignment2_MobileView.png)
 
 
+--------------------------------------------------------------------------------------
 
 
+# Assignment 3: Building a Blog Post Editor
+
+In this assignment, I created a dynamic and functional blog post editor using React. This editor includes features such as form handling, validation, a rich text editor, and a tag input system.
+
+## Components Structure
+
+### PostEditor
+
+- **Description**: The main form for editing blog posts, including title, content, category, and publishing status. Handles form state and validation.
+
+- **Purpose**: Allows users to create and edit posts with real-time validation, ensuring a smooth experience.
+
+### TagInput
+
+- **Description**: A custom input field for adding tags to a post. Supports adding, removing, and displaying tags.
+
+- **Purpose**: Enables users to tag their posts for categorization and better discoverability.
+
+### RichTextEditor
+
+- **Description**: A text area for editing the content of the post with rich text formatting options, such as bold, italic, and headings.
+
+- **Purpose**: Provides a rich editing experience with basic formatting features.
+
+## New Features
+
+Here are the features I’ve added in this assignment:
+
+- **Post Editor Form**:
+
+Collects title, content, category, and publish status for each post.
+Real-time form validation for title and content.
+
+- **Tag Input**:
+
+Allows users to input multiple tags by pressing the Enter key.
+Tags can be removed individually, and error messages are shown when validation fails.
+
+- **Rich Text Editor**:
+
+Implements basic text formatting options like bold, italic, and headings.
+Updates post content based on selected formatting.
+
+- **Form Validation**:
+
+Immediate validation for each field (title, content, tags).
+Validation feedback is shown as users interact with the form.
+Error messages appear when the user tries to submit incomplete or invalid forms.
+
+- **Publish or Save Draft**:
+
+A checkbox to toggle between saving the post as a draft or publishing it immediately.
+
+
+## Styling & Responsive Design
+
+- **CSS Modules**: Scoped styles for each component to avoid global style conflicts.
+
+- **Responsive Design**: The form adjusts for mobile and tablet views to ensure usability across devices.
+
+
+----------------------------------------------------------------------------------------
 
