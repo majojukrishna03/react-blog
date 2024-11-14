@@ -1,0 +1,101 @@
+/* src/components/BlogFilters/BlogFilters.css */
+
+.blog-filters {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .filter-group {
+    margin-bottom: 20px;
+  }
+  
+  .filter-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  select, .tags-filter {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  select:focus, .tags-filter:focus-within {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  select {
+    margin-top: 8px;
+  }
+  
+  .tags-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .tag-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .tag-checkbox input {
+    margin-right: 8px;
+    accent-color: #007bff; /* Modern blue checkbox color */
+  }
+  
+  .tag-checkbox input:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .tag-checkbox:hover {
+    color: #007bff;
+  }
+  
+  .tag-checkbox input:checked + span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .filter-group:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .blog-filters {
+      padding: 15px;
+    }
+  
+    .filter-group label {
+      font-size: 14px;
+    }
+  
+    select {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .tags-filter {
+      gap: 8px;
+    }
+  
+    .tag-checkbox {
+      font-size: 12px;
+    }
+  }
+  

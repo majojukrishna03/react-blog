@@ -269,3 +269,75 @@ A checkbox to toggle between saving the post as a draft or publishing it immedia
 
 ----------------------------------------------------------------------------------------
 
+
+
+# Assignment 4: Building a Blog with Search, Filters, and Pagination
+
+In this assignment, I built a dynamic and user-friendly blog interface using React. This blog includes features such as search functionality, filtering options, pagination, and an interactive UI for browsing through posts efficiently.
+
+## Components Structure
+
+### BlogList
+
+- **Description**: The main component responsible for displaying the list of blog posts based on applied filters, search terms, and pagination.
+
+- **Purpose**: Allows users to view a list of posts, search and filter them, and navigate through pages of content.
+
+### BlogSearch
+
+- **Description**: A search input field that allows users to filter posts by keywords.
+
+- **Purpose**: Provides a search experience that filters posts based on user input and displays the result count dynamically.
+
+### BlogFilters
+
+- **Description**: Contains filters for narrowing down the displayed posts by categories, authors, and tags.
+
+- **Purpose**: Enhances the user experience by allowing filtering of posts based on the selected criteria.
+
+### Pagination
+
+- **Description**: Manages navigation between pages, displaying a set number of posts per page.
+
+- **Purpose**: Enables easy navigation through blog posts with the ability to go to previous or next pages and select specific page numbers.
+
+
+## New Features
+
+Here are the features I’ve added in this assignment:
+
+### Search Functionality:
+
+The search bar filters posts based on keywords typed by the user.
+Displays the number of matching results in real-time.
+
+### Filtering Options:
+
+- **Category Filter**: Allows users to filter posts by category.
+
+- **Author Filter**: Filters posts by the author.
+
+- **Tags Filter**: Enables filtering by multiple tags via checkboxes.
+
+### Pagination System:
+
+Displays a set number of posts per page (5 posts per page).
+Allows users to navigate between pages using Previous and Next buttons or directly select page numbers.
+
+### Responsive Design:
+
+The layout adjusts dynamically for mobile, tablet, and desktop views to ensure smooth navigation and readability across devices.
+
+### Dynamic Updates:
+
+The list of posts, filters, and pagination controls update in real-time as users interact with the filters or search input.
+
+
+## Styling & Responsive Design
+
+- **CSS**: All components are styled using scoped classes to maintain a consistent look without global style conflicts.
+
+- **Responsive Layout**: The application is designed to be mobile-first and adjusts gracefully across all screen sizes.
+
+
+------------------------------------------------------------------------------------------------------------------------
