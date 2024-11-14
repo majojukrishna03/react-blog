@@ -1,0 +1,65 @@
+/* RichTextEditor.css */
+
+.rich-editor {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .rich-editor__toolbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .toolbar-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+  
+  .toolbar-button:hover {
+    background-color: #3498db;
+    border-color: #2980b9;
+    color: white;
+  }
+  
+  .toolbar-button:active {
+    background-color: #2980b9;
+  }
+  
+  .rich-editor__content {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    resize: none;
+    transition: border-color 0.2s;
+  }
+  
+  .rich-editor__content.error {
+    border-color: #e74c3c;
+  }
+  
+  .rich-editor__content:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  .error-message {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #e74c3c;
+  }
+  
+  

@@ -1,0 +1,88 @@
+/* TagInput.css */
+
+.form-group {
+    margin-bottom: 1.5rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .tag-input {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+  }
+  
+  .tag-input.error {
+    border-color: #e74c3c;
+  }
+  
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .tag {
+    display: flex;
+    align-items: center;
+    background-color: #e1e1e1;
+    padding: 0.3rem 0.7rem;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .tag-remove {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .tag-remove:hover {
+    color: #c0392b;
+  }
+  
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #333;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  input:focus {
+    border-color: #3498db;
+  }
+  
+  .error-message {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #e74c3c;
+  }
+  
+  
