@@ -341,3 +341,35 @@ The list of posts, filters, and pagination controls update in real-time as users
 
 
 ------------------------------------------------------------------------------------------------------------------------
+
+
+# Assignment 5: Building Blog Navigation and Routing
+
+In this assignment, I built a dynamic and responsive blog navigation system using React Router v6. The app includes routing for pages like the homepage, blog listings, individual posts, profile page, and error handling, with nested and dynamic routes.
+
+## Components Overview
+
+- **Layout**: Serves as the wrapper for the application, containing the navigation, sidebar, and footer. Ensures a consistent layout across all pages.
+
+- **Navigation**: Manages the main navigation links with dynamic routing, active state, and a mobile-friendly menu toggle.
+
+- **Sidebar**: Contains category filters and recent posts for quick navigation.
+
+- **NotFound**: A 404 error page displayed for invalid routes, offering navigation options to the user.
+
+- **Routes**: Configures paths for the home page, blog list, post details, new/edit posts, and profile.
+
+## Features
+
+- **Routing**: Includes nested routes for post details, new posts, and post editing. Dynamic routes for post content based on ID.
+
+- **Error Handling**: Custom 404 page with options to go back or home.
+
+- **Responsive Navigation**: Mobile-friendly menu with toggle for smaller screens and active state highlighting.
+
+- **Sidebar**: Allows category filtering and quick navigation to recent posts.
+CSS: The layout is responsive, using grid-based CSS for smooth adaptation to various screen sizes.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
