@@ -1,0 +1,73 @@
+/* NotFound.css */
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .not-found h1 {
+    font-size: 4rem;
+    color: #dc3545;
+    margin-bottom: 20px;
+  }
+  
+  .not-found p {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+  }
+  
+  .not-found__error {
+    font-size: 1.1rem;
+    color: #ff5722;
+    margin-top: 10px;
+  }
+  
+  .not-found__actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .not-found__button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .not-found__button:hover {
+    background-color: #007bff;
+    transform: translateY(-3px);
+  }
+  
+  .not-found__button:active {
+    background-color: #0056b3;
+    transform: translateY(1px);
+  }
+  
+  .not-found__button:first-child {
+    background-color: #ffc107;
+  }
+  
+  .not-found__button:first-child:hover {
+    background-color: #e0a800;
+  }
+  
+  .not-found__button:last-child {
+    background-color: #28a745;
+  }
+  
+  .not-found__button:last-child:hover {
+    background-color: #218838;
+  }
+  
